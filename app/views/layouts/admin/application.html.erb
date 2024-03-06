@@ -24,6 +24,8 @@ By default, it renders:
   <%= render "stylesheet" %>
   <%= csrf_meta_tags %>
   <%= csp_meta_tag if defined?(csp_meta_tag) %>
+
+  <%= render "javascript" %>
 </head>
 <body>
   <%= render "icons" %>
@@ -36,7 +38,5 @@ By default, it renders:
       <%= yield %>
     </main>
   </div>
-
-  <%= render "javascript" %>
 </body>
 </html>

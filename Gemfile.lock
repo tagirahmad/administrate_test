@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/elias19r/administrate.git
   revision: 1f3518c6f549ebcebb90f53855cd267b683e473a
-  ref: 1f3518c6f549ebcebb90f53855cd267b683e473a
+  branch: publish-gem-with-precompiled-assets-2--digests
   specs:
     administrate (0.19.0)
       actionpack (>= 6.0, < 8.0)
@@ -164,6 +164,8 @@ GEM
     net-smtp (0.4.0)
       net-protocol
     nio4r (2.7.0)
+    nokogiri (1.16.0-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
     psych (5.1.2)
@@ -229,6 +231,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.6.9-arm64-darwin)
     sqlite3 (1.6.9-x86_64-linux)
     stimulus-rails (1.3.0)
       railties (>= 6.0.0)
@@ -256,6 +259,7 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
