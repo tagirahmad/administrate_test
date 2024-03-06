@@ -67,4 +67,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "administrate", git: "https://github.com/elias19r/administrate.git", ref: '1f3518c6f549ebcebb90f53855cd267b683e473a'
+gem "administrate", github: "elias19r/administrate", branch: "publish-gem-with-precompiled-assets-2--digests"
